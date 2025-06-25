@@ -1,0 +1,34 @@
+/*
+Page Colors:
+
+Off-Black (#222222)	Main background — soft, not harsh pure black
+
+Off-White (#F5F7FA)	Text color — easy on eyes against dark background
+
+Royal Blue (#4169E1)	Buttons, links, highlights — vibrant and techy
+
+Cool Gray (#A7B1C2)	Cards, panels, secondary backgrounds — subtle contrast
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: inter;
+}
+body{
+  background-color: #222222;
+}
+.nav-bar {
+  background-color: #1A1A1A;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 60rem;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: #F5F7FA;
+}
